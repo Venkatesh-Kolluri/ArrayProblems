@@ -17,7 +17,7 @@ namespace Arrays
             int[,] arr2 = new int[size, size];
             int[,] result = new int[size, size];
 
-            //    Console.WriteLine("Enter The Element into arr1 Matric: ");
+          
             Console.Write("Enter elements in matrix arr1 of size {0}x{0}: \n", size);
             for (int row = 0; row < size; row++)
             {
@@ -28,7 +28,7 @@ namespace Arrays
 
                 }
             }
-            // Console.WriteLine("Enter The Element into arr2 Matric: ");
+         
             Console.Write("Enter elements in matrix arr2 of size {0}x{0}: \n", size);
             for (int row = 0; row < size; row++)
             {
